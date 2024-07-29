@@ -1,0 +1,42 @@
+Create a Method to Calculate Future Value Using Recursion:
+
+The future value 
+𝐹
+𝑉
+FV of an investment can be calculated using a simple recursive formula:
+𝐹
+𝑉
+=
+𝑃
+𝑉
+×
+(
+1
++
+𝑟
+)
+𝑛
+FV=PV×(1+r) 
+n
+ 
+Where:
+
+𝑃
+𝑉
+PV = Present Value
+𝑟
+r = Growth Rate (as a decimal)
+𝑛
+n = Number of Periods
+In a recursive approach, you might break down the problem as follows:
+
+Base Case: When 
+𝑛
+n is 0, the future value is the present value.
+Recursive Case: Compute the future value for 
+𝑛
+−
+1
+n−1 periods and apply the growth rate to get the future value for 
+𝑛
+n periods.
