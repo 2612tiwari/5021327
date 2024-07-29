@@ -1,0 +1,12 @@
+Linear Search:
+
+How it Works: Linear search sequentially checks each element of the list until the desired element is found or the end of the list is reached.
+Time Complexity: O(n), where n is the number of elements in the list. It has a worst-case scenario of scanning the entire list.
+Pros: Simple to implement and does not require the data to be sorted.
+Cons: Inefficient for large data sets as it might require scanning through all elements.
+Binary Search:
+
+How it Works: Binary search repeatedly divides the sorted list in half and compares the target value to the middle element. It eliminates half of the remaining elements at each step.
+Time Complexity: O(log n), where n is the number of elements. It is much faster for large datasets compared to linear search, but it requires the data to be sorted.
+Pros: Much more efficient than linear search for large datasets.
+Cons: Requires the data to be sorted; the initial sorting step might be expensive if data changes frequently.
