@@ -1,0 +1,21 @@
+Time Complexity Comparison:
+
+Linear Search:
+Best Case: O(1) if the book is at the beginning.
+Worst Case: O(n) if the book is at the end or not present.
+Binary Search:
+Best Case: O(1) if the book is at the middle.
+Worst Case: O(log n) for large datasets.
+When to Use Each Algorithm:
+
+Linear Search:
+
+When the data is unsorted or changes frequently.
+For small datasets where the overhead of sorting is not justified.
+When simplicity is more important than efficiency.
+Binary Search:
+
+When the data is sorted and changes infrequently.
+For large datasets where efficiency is crucial.
+When you need faster search times compared to linear search.
+Using binary search on a sorted list significantly improves search performance, but it requires maintaining the order of the list, which might involve additional overhead for sorting. Linear search, while simpler, is often more suitable for smaller or unsorted datasets.
