@@ -1,0 +1,8 @@
+Linked Lists Overview:
+
+Singly Linked List: Each node contains data and a reference (or link) to the next node. Operations such as insertion and deletion are efficient, especially at the beginning of the list. However, searching requires traversing the list from the start.
+Doubly Linked List: Each node contains data and two references: one to the next node and one to the previous node. This allows for more efficient bidirectional traversal and insertion/deletion operations from both ends of the list.
+Advantages of Linked Lists:
+
+Dynamic Size: Linked lists can grow and shrink in size dynamically, which makes them more flexible than arrays for applications with varying data sizes.
+Efficient Insertions/Deletions: Inserting or deleting elements does not require shifting elements, as in arrays; only the references need to be updated.
