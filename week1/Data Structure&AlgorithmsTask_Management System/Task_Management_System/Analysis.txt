@@ -1,0 +1,14 @@
+Time Complexity:
+
+Add: O(n) in the worst case because you may need to traverse the entire list to find the end, though it's O(1) if you keep a reference to the end.
+Search: O(n) as you need to traverse the list to find the task.
+Traverse: O(n) because you visit each node exactly once.
+Delete: O(n) as you need to find the node before the one you want to delete, which involves traversing the list.
+Advantages of Linked Lists over Arrays:
+
+Dynamic Size: Linked lists can grow and shrink dynamically, making them ideal for scenarios where the number of elements varies.
+Efficient Insertions/Deletions: Inserting or deleting elements is more efficient in linked lists (O(1) for operations at the head or tail with additional pointers) compared to arrays where elements need to be shifted.
+No Wasted Space: Linked lists do not waste space as they do not require pre-allocated space.
+When to Use Linked Lists:
+
+Linked lists are beneficial when you need a data structure that can grow or shrink dynamically and you frequently perform insertions or deletions. For applications where random access or frequent lookups are needed, arrays or other data structures like hash tables might be more appropriate.
