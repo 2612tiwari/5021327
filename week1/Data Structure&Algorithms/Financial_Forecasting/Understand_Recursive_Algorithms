@@ -1,0 +1,14 @@
+Recursion Concept:
+
+Definition: Recursion is a programming technique where a method calls itself in order to solve a problem. A problem is divided into smaller, more manageable sub-problems, which are solved using the same method.
+Base Case and Recursive Case: A recursive function typically has two parts:
+Base Case: The condition under which the recursion terminates.
+Recursive Case: The part of the function where it calls itself with modified arguments.
+Advantages of Recursion:
+
+Simplicity: Recursion can simplify the code, making it easier to understand and implement, especially for problems that can be naturally divided into similar sub-problems (e.g., tree traversal, factorial calculation).
+Elegance: Recursive solutions often lead to elegant solutions for problems like searching and sorting.
+Disadvantages:
+
+Overhead: Each recursive call adds a layer to the call stack, which can lead to stack overflow if the recursion is too deep.
+Efficiency: Recursive solutions may be less efficient due to redundant calculations and increased memory usage compared to iterative solutions.
