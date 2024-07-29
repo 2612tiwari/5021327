@@ -1,0 +1,10 @@
+Arrays in Memory:
+
+Arrays are a collection of elements, all of the same type, stored in contiguous memory locations.
+The address of the first element is used to access the entire array. Each element's address can be calculated using the base address and the index of the element.
+
+Advantages:
+
+Constant Time Access: Arrays provide O(1) time complexity for accessing elements by index.
+Memory Efficiency: Since elements are stored in contiguous locations, there is no overhead for additional pointers or references.
+Cache Friendliness: Contiguous memory allocation can improve cache performance due to spatial locality.
