@@ -1,0 +1,19 @@
+Analysis:
+Time Complexity:
+
+Add: O(1) if there is space in the array. If the array is full, adding requires resizing, which is not covered in this implementation.
+Search: O(n) because you may need to iterate through the entire array to find the employee.
+Traverse: O(n) as you need to visit each element in the array.
+Delete: O(n) due to the need to shift elements to fill the gap left by the deleted employee.
+
+Limitations of Arrays:
+
+Fixed Size: Arrays have a fixed size once created. If you need to accommodate more employees than initially allocated, you'll need to resize, which is not handled in the simple array implementation.
+Inefficient Insertions and Deletions: Inserting or deleting elements (other than at the end) requires shifting elements, which can be inefficient.
+Wasted Space: If the number of employees is less than the array's capacity, the unused space is wasted.
+
+When to Use Arrays:
+
+Arrays are suitable when the number of elements is known in advance and doesn't change frequently.
+For simple scenarios where fixed-size collections are acceptable and performance considerations like constant-time access are crucial, arrays can be an efficient choice.
+For dynamic scenarios or where frequent insertions/deletions are required, consider using other data structures like ArrayList in Java, which provides dynamic resizing and better management for such cases.
